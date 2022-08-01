@@ -4,18 +4,20 @@
 
 # Getting Started
 
-1. Create a folder `eval` inside
-2. install required libraries.
-3. `npm run start` command should start the Node Server on Port: `8000`
+1. Down the zip of the repository in masai-repo.
+2. Unzip and rename the folder as per masai-repo-standards.
+3. All set to start.
 
 ## Mandatory:
 
-1. Use of ExpressJS.
-2. Use go nodemon.
-3. server should run on port: `8000`.
-4. Command: `npm run start` should start the server.
+1. Initialize NPM.
+2. Use of ExpressJS.
+3. Use go nodemon.
+4. server should run on port: `8000`.
+5. Command: `npm run start` should start the server.
+6. Should not update schema file while performing following features.
 
-## Schema
+## Schema Files
 
 - [Users](./data/users.json) : check `data/users.json` file.
 - [Products](./data/products.json.json) : check `data/products.json` file.
@@ -45,14 +47,10 @@
 
 ## General Instructions (**_IMPORTANT_**)
 
-1. Typescript is mandatory.
-2. Use of Custom Hooks is mandatory
-3. Do not use Global CSS, instead use `<componentName>.module.css` convention for Css in that file.
-4. Do Not Remove `data-testid="xxxx"` from anywhere, this are used by testing tools to test your code, removal of this will lead to low score.
-5. Make sure you use only the given components and dont create new files and folders as chaging component name, structures might result in giving you zero marks
-6. Make sure you use only the given data and dont create new data, as chaging data might result in giving you zero marks
+1. Make sure you follow `masai-repo` standards.
+2. Do not change/update Schema files, we will test your code agains the same files.
+3. Expected use of routing to seperate out user and product code.
 
-## Just for fun, things you can try (**_OPTIONAL_**)
+## Optional
 
-- Try running `npm run test`
-  - might help you to avoid obvious mistakes.
+1. [Heroku Deployment of NodeJS](https://devcenter.heroku.com/articles/deploying-nodejs)
