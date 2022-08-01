@@ -1,26 +1,12 @@
-# Task
-
-- Create a NodeJS Server with following features.
-
 # Getting Started
 
 1. Down the zip of the repository in masai-repo.
 2. Unzip and rename the folder as per masai-repo-standards.
 3. All set to start.
 
-## Mandatory:
+# Task
 
-1. Initialize NPM.
-2. Use of ExpressJS.
-3. Use go nodemon.
-4. server should run on port: `8000`.
-5. Command: `npm run start` should start the server.
-6. Should not update schema file while performing following features.
-
-## Schema Files
-
-- [Users](./data/users.json) : check `data/users.json` file.
-- [Products](./data/products.json.json) : check `data/products.json` file.
+- Create a NodeJS Server with following features.
 
 ## Features to build
 
@@ -44,6 +30,20 @@
    - `POST /products` : add one product where with dynamic id.
 
 **Note** - `Make sure you implelement features one by one and deploy the app correctly`
+
+## Mandatory:
+
+1. Initialize NPM.
+2. Use of ExpressJS.
+3. Use go nodemon.
+4. server should run on port: `8000`.
+5. Command: `npm run start` should start the server.
+6. Should not update schema file while performing following features.
+
+## Schema Files
+
+- [Users](./data/users.json) : check `data/users.json` file.
+- [Products](./data/products.json.json) : check `data/products.json` file.
 
 ## General Instructions (**_IMPORTANT_**)
 
